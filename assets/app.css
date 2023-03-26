@@ -1,3 +1,7 @@
+:root {
+    --main-color: #dd4a00;
+}
+
 body {
     position: relative;
     height: 100vh;
@@ -18,9 +22,12 @@ body {
 }
 
 #img-wrapper > .image {
-    width: 40vmin;
-    height: 56vmin;
+    width: 50vmin;
+    height: 64vmin;
     object-fit: cover;
     object-position: center;
+    border-radius: 3%;
 }
+
+
 
